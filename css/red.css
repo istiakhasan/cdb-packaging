@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+:root {
+  --baseColor: #F5F6F7;
+  --linkColor: #00a0f7;
+  --primary: #e00;
+  --secondary:#000000;
+  --earth:#7DC332;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+  color: #000000;
+}
+body {
+  background: #FFFFFF;
+  min-height: 100vh;
+}
+/* nav section  */
+.cm_li::marker{
+    color: var(--primary);
+}
+.header_top{
+    box-shadow: 0 4px 2px -2px rgba(0,0,0, 0.3); 
+    padding: 30px 0;
+}
+.nav_bar_right .req_btn{
+    background-image: linear-gradient(to right, rgb(249, 31, 39), rgb(0, 0, 0));
+    padding: 20px 60px;
+    display: inline-block;
+    color: wheat;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nmb_wraper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.cdb_navbar .nav-link{
+     color: var(--secondary);
+     text-transform: uppercase;
+     font-weight: 500;
+     font-size: 16px;
+     display: inline-block;
+     padding: 5px 30px !important;
+}
+.cdb_navbar .nav-link:hover,.cdb_navbar .nav-link.active{
+     color: var(--primary);
+     background: linear-gradient(to bottom, rgba(115, 114, 114, 0.302), rgba(115, 114, 114, 0));
+}
+
+
+/* banner image */
+.banner_img img{
+    width: 100%;
+    height: 650px;
+}
+ .banner_content{
+    color: var(--secondary);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+ .cm_title{
+    color: var(--baseColor);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+ .banner_content span,.cm_title span{
+    color: var(--primary);
+}
+
+.call_now_section{
+    background: #F6F6F6;
+}
+ .call_btn{
+    background: none;
+    border: 2px solid var(--primary);
+    padding: 10px 40px;
+    color: var(--primary);
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+ .call_btn_dark{
+    border: 2px solid var(--baseColor);
+    background: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    color: var(--baseColor);
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+ .call_btn_dark:hover{
+    border: 2px solid var(--primary);
+    background: var(--primary);
+    transition: .4s linear;
+
+}
+.call_btn:hover{
+    border: 2px solid var(--secondary);
+    background: var(--secondary);
+    color: var(--baseColor);
+    transition: .4s ease-in-out;
+}
+.cm_desc{
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 16px;
+}
+.cm_desc_dark{
+    color: var(--baseColor);
+    font-weight: 600;
+    font-size: 16px;
+}
+/* popular market section  */
+.view_service_btn{
+    background: rgb(134,111,242);
+    border: 1px solid rgb(134,111,242);
+    padding: 10px 50px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(162deg, rgba(134,111,242,1) 0%, rgba(229,117,130,0.6951155462184874) 50%);
+}
+.view_service_btn:hover{
+  background: #8970EF;
+}
+.slick-next,.slick-prev{
+    display: none !important;
+}
+
+.popular_market_product{
+ position: relative; 
+ border-radius: 4px;
+ overflow: hidden; 
+ z-index: 9;
+ cursor: pointer;
+}
+.popular_market_product::before{
+ position: absolute;
+ content: '';
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(0,0,0, 0.3);
+ z-index: 10;
+}
+
+.popular_market_product h1{
+ color: white;
+ position: absolute;
+ font-weight: bold;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ z-index: 12;
+}
+
+.popular_market_product img{
+    height: 300px;
+}
+
+.section_title{
+  text-align: center;
+  margin: 50px auto;
+  width: fit-content;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  position:relative;
+}
+.section_title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  background: #7089df;
+  height: 3px;
+  width: 100%;
+  border-radius: 4px;
+}
+.section_title span{
+ color: #A392E8;
+
+}
+
+/* featre slider  */
+.featre_slider .slick-slide{
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.featre_slider .slick-slide img{
+    object-fit: contain !important;
+}
+
+/* realization section  */
+.realization_section{
+    min-height: 500px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg');
+}
+
+
+
+/* packaging converstion section  */
+.packaging_converstion_section{
+    background: #BCC1C5;
+    min-height: 200px;
+}
+
+.cm_primary_title{
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* custom order section */
+.custom_order_section{
+    background: #F1F1F1;
+}
+.order_title{
+    color: #000046;
+    font-weight: bold;
+    font-size: 32px;
+}
+.order_title span{
+    color: var(--primary);
+}
+.order_desc{
+    color: #212121;
+    font-weight:bold;
+    font-size: 18px;
+}
+.order_desc span{
+    color: var(--primary);
+}
+.custom_order_form input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid var(--primary);
+    outline: none;
+}
+.custom_order_form button{
+    background: var(--primary);
+    padding: 10px 50px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: fit-content;
+}
+
+/* earth_friendly_product_section */
+.earth_friendly_product_section{
+    background: #D3D5D8;
+}
+/* common earth title  */
+.cm_earth_title{
+    color: var(--secondary);
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cm_earth_title span{
+    color: var(--earth);
+}
+
+
+
+
+/* wave background and  vide section  */
+/* wave background and  vide section  */
+/* wave background and  vide section  */
+.wave_bg_with_video_section{
+  position: relative; 
+  height: 500px;
+  z-index: 10;
+}
+.wave_bg_with_video_section::after{
+  position: absolute; 
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(36% 20%, 59% 0, 77% 21%, 100% 0, 100% 100%, 53% 100%, 30% 100%, 0 100%, 0 17%, 15% 0);
+  background: #A4D97C;
+  z-index: -50;
+}
+.wave_bg_with_video_section::before{
+  position: absolute; 
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(37% 0, 58% 20%, 76% 0, 100% 21%, 100% 100%, 53% 100%, 30% 100%, 0 100%, 0 0, 18% 20%);
+  background: #5FC60A;
+  z-index: -40;
+}
+/* footer section start */
+footer {
+    background: #192057;
+    min-height: 300px;
+    padding: 40px 0;
+  }
+  
+  footer .footer_title {
+    font-size: 1.2rem;
+  }
+  footer .footer_box,
+  footer .footer_box a {
+    text-decoration: none;
+    text-align: justify;
+    font-size: 1rem;
+    color: #B3AEB9;
+  }
+  footer .footer_box strong {
+    font-weight: 700;
+    color: #999999;
+  }
+  footer .footer_box a {
+    margin: 0 4px;
+  }
+  
+  /* footer categry */
+  .footer_category_section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  .footer_category_section .footer_category_title {
+    color: #FAFAFB;
+    font-size: 1.2rem;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+  .footer_category_section .footer_category_title::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #00a0f7;
+    bottom: -8px;
+  }
+  .footer_category_section .footer_category_card a,.footer_category_section .footer_category_card a:hover {
+    text-decoration: none;
+    text-align: justify;
+    font-size: 1rem;
+    color: #B3AEB9;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .footer_social_icon .fa-brands{
+    color: white !important;
+    font-size: 20px;
+    margin-right: 15px;
+    
+  }
+  .footer_social_icon {
+  margin-top: 30px;
+  
+  }
+
+  /* footer section end  */
+@media only screen and (max-width: 768px) {
+
+    /* footer category section  */
+    .footer_category_section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+  }

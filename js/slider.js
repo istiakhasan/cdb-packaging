@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.productSlider').slick({
+    $('.featre_slider').slick({
       slidesToShow: 4,
       slidesToScroll: 1,
       prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
@@ -8,13 +8,13 @@ $(document).ready(function(){
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1
           }
         }
       ],
-      // autoplay: true,
-      autoplaySpeed: 6000
+      autoplay: true,
+      autoplaySpeed: 4000
     });
     $('.live_video_with_carousel').slick({
       slidesToShow: 4,
