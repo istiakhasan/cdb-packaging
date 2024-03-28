@@ -321,6 +321,52 @@ body {
   background: #5FC60A;
   z-index: -40;
 }
+/* alwasys target section */
+.always_target_section{
+  background: linear-gradient(rgba(226, 15, 15, 1), rgba(226, 15, 15, .7)), url("https://fasten.nl/wp-content/uploads/2020/02/FA-Website-Banner-Packaging-scaled.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.always_target_section h1{
+color:var(--baseColor);
+text-align: center;
+font-size: 3.5rem;
+max-width: 80%;
+margin: 0 auto;
+font-weight: bold;
+}
+
+/* further_question_sectio */
+.further_question_sectio{
+  background: linear-gradient(rgba(226, 15, 15, 1), rgba(226, 15, 15, .7));
+  min-height: 300px;
+}
+.further_question_sectio h1{
+  color: var(--baseColor);
+  font-weight: bold;
+  font-size: 3rem;
+  
+
+}
+.further_question_sectio p{
+  color: var(--baseColor);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.further_question_sectio button{
+  color: var(--baseColor);
+  border:2px solid var(--baseColor);
+  background: none;
+  font-weight: bold;
+  padding: 10px 50px;
+}
+.further_question_sectio button:hover{
+  border:2px solid var(--secondary);
+  background: var(--secondary);
+}
 /* footer section start */
 footer {
     background: #192057;
