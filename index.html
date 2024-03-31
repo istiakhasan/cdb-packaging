@@ -1,498 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
     <!-- bootstrap  5 cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <!-- font awsome cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <!-- animation css -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
 
     <!-- slick slider cdn -->
     <link rel="stylesheet" href="js/slick.min.css">
     <link rel="stylesheet" href="js/slick-theme.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- navbar -->
-    <header class="cdb_header">
-      <nav id="cm_navbar" class="navbar navbar-expand-lg cdb_navbar">
-        <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img
-              width="30"
-              src="https://cdbpackaging.com/assets/img/cdb-logo.png"
-              alt
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 py-3">
-              <li class="nav-item d-flex align-items-center me-4">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item d-flex align-items-center me-4">
-                <a class="nav-link" href="#">Pouches</a>
-              </li>
-              <li class="nav-item d-flex align-items-center me-4">
-                <a class="nav-link" href="#">Roll Stock</a>
-              </li>
-              <li class="nav-item d-flex align-items-center me-4">
-                <a class="nav-link" href="#">Custom Printing</a>
-              </li>
-              <li class="nav-item d-flex align-items-center me-4">
-                <a class="nav-link" href="#">Request Quote</a>
-              </li>
-              <li class="nav-item d-flex align-items-center me-4">
-                <a class="nav-link" href="#">Login</a>
-              </li>
-              <li class="nav-item ms-auto me-3">
-                <p class="mb-0 cm_link">
-                  <i class="me-2 fa-solid fa-phone"></i> (909) 325-2345
-                </p>
-                <p class="mb-0 cm_link">
-                  <i class="me-2 fa-solid fa-envelope"></i>
-                  info@cdbpackaging.com
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <link rel="stylesheet" href="css/red.css">
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+</head>
 
-      <div class="row container mx-auto">
-        <div class="col-md-6 d-flex align-items-center">
-          <div class="banner_content">
-            <h4>
-              CDB Packaging is a flexible packaging company founded in 2005.
-            </h4>
-            <p>
-              At CDB Packaging, we are committed to providing the highest
-              quality products and services available. We believe that by
-              building strong relationships and providing long term, cost-saving
-              solutions, we can be a key asset to our customers.
-            </p>
-            <button>Request Quote</button>
-          </div>
+<body>
+    <header>
+        <div class="container">
+            <div class="row header_top">
+                <div class="col-md-6">
+                    <div class="nav_bar_left">
+                        <a href=""><img style="-webkit-filter: invert(100%); /* Safari/Chrome */
+                            filter: invert(100%);" width="380"
+                                src="https://cdbpackaging.com/assets/img/cdb-logo.png"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="nav_bar_right text-center">
+                        <a class="req_btn rounded-pill my-2 my-md-0" href="">Request a quote</a>
+                        <a class="req_btn rounded-pill" href="">Sample Request</a>
+                           <p class="nmb_wraper justify-content-center justify-content-md-start"><i class="fa fa-phone"></i>(909) 325-2345 </p>
+                    </div> 
+                </div>
+            </div>
+            <!-- menu item  -->
+            <!-- menu item  -->
+              <nav class="navbar navbar-expand-lg cdb_navbar">
+                <div class="container">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex gap-2 mb-2 mb-lg-0 w-100 py-3">
+                      <li class="nav-item ">
+                        <a class="nav-link rounded-pill active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link rounded-pill" href="#">Pouches</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link rounded-pill" href="#">Roll Stock</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link rounded-pill" href="#">Custom Printing</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link rounded-pill" href="#">Request Quote</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link rounded-pill" href="#">Login</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <div class="banner_img">
+                <img class="animate__animated animate__backInLeft"  src="https://reddotpackaging.com/wp-content/uploads/2023/03/make-your-products-shine-e1678468683999.jpg" alt="">
+                <h1 class="banner_content">CUSTOM FLEXIBLE <span>PACKAGING SOLUTIONS</span></h1>
+              </div>
         </div>
-        <div class="col-md-6 d-flex justify-content-end">
-          <img class="img-fluid w-75" src="img/banner.svg" alt />
-        </div>
-      </div>
     </header>
 
 
     <!-- main start -->
-    <main class="">
-        <section  class="py-5 container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="w-75 rounded-2" src="https://cdbpackaging.com/assets/img/site/IMG_5505-e1570727511271.jpg" alt="">
+    <main>
+        <!-- call now section  -->
+        <section class="call_now_section py-5">
+                <div class="container">
+                    <p class="cm_desc text-center">With over a decade of experience under our belt, Red Dot Packaging is a trusted leader in providing flexible packaging solutions.</p>
+                <p class="cm_desc text-center">Our unwavering commitment to professionalism and cutting-edge technology enables us to deliver state-of-the-art flexible packaging products that surpass your expectations.</p>
+                <button class="call_btn rounded-pill">Call Now</button>
                 </div>
-                <div class="col-md-6">
-                    <p class="why_cdb_title">Decenteralized cdbpackaging platform</p>
-                    <p class="why_cdb_sort_desc">CDB has been in the Packaging Industry Since 1995</p>
-                    <p class="why_cdb_content text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non ut beatae laboriosam commodi neque qui, facilis assumenda sequi est nemo cupiditate aspernatur sunt ipsa dignissimos et eum quibusdam tempora? Minima ducimus doloribus molestias sapiente, id eius consectetur rem provident possimus incidunt. Amet illo quia ex commodi accusamus aut a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vel esse, repellendus veniam earum temporibus nisi molestias nulla sapiente doloremque, delectus reprehenderit quos eveniet itaque alias, at saepe asperiores aut.</p>
-
-                    <div class="cdb_key_feature row row-cols-2">
-                        <p><i class="fa-solid fa-square-check"></i>Customized Products</p>
-                        <p><i class="fa-solid fa-square-check"></i>Extended Shelf Life</p>
-                        <p><i class="fa-solid fa-square-check"></i>Short or Long Runs</p>
-                        <p><i class="fa-solid fa-square-check"></i>Product Variety</p>
-                        <p><i class="fa-solid fa-square-check"></i>Customized Products</p>
-                        <p><i class="fa-solid fa-square-check"></i>Customized Products</p>
-                    </div>
-                </div>
-            </div>
         </section>
         <!-- popular market section  -->
         <section class="popular_market_section py-5">
-          <h1 class="section_title">Products  <span>& Services</span></h1>
+            <h1 class="banner_content mb-5">popular <span>Markets</span></h1>
             <div class="slider_wraper mb-3 container-fluid">
 
                 <div class="slider">
                     <!-- slider item -->
-                   <div>
-                     <div class="row">
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product.avif" alt="">
-                               <h1>cosmetics</h1>
+                    <div>
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                     </div>
-                   </div>
+                        </div>
+                    </div>
                     <!-- slider item -->
-                   <div>
-                     <div class="row">
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product1.avif" alt="">
-                               <h1>cosmetics</h1>
+                    <div>
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product1.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="https://png.pngtree.com/background/20230616/original/pngtree-realistic-3d-flat-lay-mockup-showcasing-skin-and-hair-care-products-picture-image_3630290.jpg" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100"
+                                        src="https://png.pngtree.com/background/20230616/original/pngtree-realistic-3d-flat-lay-mockup-showcasing-skin-and-hair-care-products-picture-image_3630290.jpg"
+                                        alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product3.jpg" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product3.jpg" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product1.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product1.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product1.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product1.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product1.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product1.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product1.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product1.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="popular_market_product">
-                               <img class="w-100" src="img/product1.avif" alt="">
-                               <h1>cosmetics</h1>
+                            <div class="col-md-3 mb-3">
+                                <div class="popular_market_product">
+                                    <img class="w-100" src="img/product1.avif" alt="">
+                                    <h1>cosmetics</h1>
+                                </div>
                             </div>
-                         </div>
-                     </div>
-                   </div>
+                        </div>
+                    </div>
                 </div>
-          </div>
-
-          <button class="view_service_btn">View All Services</button>
+            </div>
+            <button class="call_btn rounded-pill">VIEW ALL MARKETS</button>
         </section>
 
+         <!-- featrue section  -->
+         <section class="py-5">
+             <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <img  style="width: 100%;max-height: 500px;" src="https://reddotpackaging.com/wp-content/uploads/2023/04/red-dot-packaging-22-1.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="banner_content text-start">Make Your Products Shine with <span>Red Dot Packaging</span></h1>
+                        <ul>
+                            <li class="cm_li"><p class="cm_desc">This isn’t just any product you’re putting on the shelf, it’s your brand and your reputation – something that we take seriously.</p></li>
+                            <li class="cm_li"><p class="cm_desc">Our team of experts will work closely with you to understand your specific requirements and develop custom solutions that present and protect your valuables in the best way possible.</p></li>
+                            <li class="cm_li"><p class="cm_desc">You can trust that our industry-leading print technologies, quality materials and exclusive finishes will make your products POP!</p></li>
+                        </ul>
+                    </div>
 
-        <!-- Our partners  -->
+                    <div class="col-md-12">
+                        <h1 class="banner_content text-start my-5">CONFIGURATION <span>/ STYLE OPTIONS:</span></h1>
 
-        <section class="our_partner_section">
-          <h1 class="section_title">Frequently <span>Questions</span></h1>
+                       <div class="w-75">
+                        <p class="cm_desc">Red Dot Packaging specializes in several different product packaging configurations. From Flat Pouches and Stand Up Pouches to custom Shaped Pouches and Box Pouches we have you covered. Each pouch style or configurtion can have a variety of options with your unique features and finish.</p>
 
-          <div class="container mx-auto row my-5">
-            <div class="col-md-6">
-              <div class="buy_token">
-                <h5>Token Sale ends in</h5>
-                <div class="count_wraper">
-                    <div class="count_box">
-                      <div>232</div>
-                      <span>Days</span>
+                        <p class="cm_desc">We can also help you with creating custom flexible Roll-Stock Films for your Vertical or Horizontal (Form-Fill-Seal) machines.</p>
+                        <p class="cm_desc">Give us a call today and we can walk you through the whole process.</p>
+                       </div>
+
                     </div>
-                    <div class="count_box">
-                      <div>232</div>
-                      <span>Hours</span>
-                    </div>
-                    <div class="count_box">
-                      <div>232</div>
-                      <span>Minutes</span>
-                    </div>
-                    <div class="count_box">
-                      <div>232</div>
-                      <span>Seconds</span>
-                    </div>
-            
                 </div>
-                <button class="rounded-pill">Buy Token</button>
-              </div>
+             </div>
+             <!-- feature product carousel -->
+             <div class="featre_slider">
+                 <div>
+                    <img src="https://reddotpackaging.com/wp-content/uploads/2023/02/03-Fin-Seal-Pouch.png" height="400" class="w-100" alt="">
+                 </div>
+                 <div>
+                    <img src="https://reddotpackaging.com/wp-content/uploads/2023/02/Tamper-Evident-Pouch-01.png" height="400" class="w-100" alt="">
+                 </div>
+                 <div>
+                    <img src="https://reddotpackaging.com/wp-content/uploads/2023/02/02-w-Fold-Stand-Up-AKA-Plow-Bottom.png" height="400" class="w-100" alt="">
+                 </div>
+                 <div>
+                    <img src="https://reddotpackaging.com/wp-content/uploads/2023/02/Bottom-Load-Pouch.png" height="400" class="w-100" alt="">
+                 </div>
+                 <div>
+                    <img src="https://reddotpackaging.com/wp-content/uploads/2023/02/03-Child-Resistant-Pouches-2-f.png" height="400" class="w-100" alt="">
+                 </div>
+             </div>
+
+         </section>
+
+         <!-- realization section  -->
+         <section id="module" class="realization_section py-5">
+         <h1 class="cm_title mb-5">THE PACKAGING <br> REALIZATION
+        <span> PROCESS</span>
+        </h1>
+
+        <p class="cm_desc_dark text-center">Red Dot Packaging is here to provide the perfect packaging solution.</p>
+        <p class="cm_desc_dark text-center">Our flexible packaging options, high-quality materials, and extensive range of&nbsp;<br>customizable features are guaranteed to meet your unique needs and budget.</p>
+          
+
+        <div class="container-fluid row mx-auto my-5">
+            <div class="col-md-3 text-center mb-3">
+                <img class="animate__animated animate__backInDown" width="200"  height="200" src="https://reddotpackaging.com/wp-content/uploads/2023/08/aprove-quote-200x200.png" alt="">
+                <h3 style="color: #ffffff;text-transform: uppercase;text-align: center;">APPROVE QUOTE</h3>
             </div>
-            <div class="col-md-6">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sint libero, cum iusto necessitatibus eveniet provident commodi corrupti reiciendis aperiam dignissimos enim pariatur tempore delectus voluptatum alias ratione, quisquam iste.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sint libero, cum iusto necessitatibus eveniet provident commodi corrupti reiciendis aperiam dignissimos enim pariatur tempore delectus voluptatum alias ratione, quisquam iste.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sint libero, cum iusto necessitatibus eveniet provident commodi corrupti reiciendis aperiam dignissimos enim pariatur tempore delectus voluptatum alias ratione, quisquam iste.
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="col-md-3 text-center mb-3">
+                <img class="animate__animated animate__backInDown" width="200"  height="200" src="https://reddotpackaging.com/wp-content/uploads/2023/08/aprove-artwork-200x200.png" alt="">
+                <h3 style="color: #ffffff;text-transform: uppercase;text-align: center;">APPROVE ARTWORK</h3>
             </div>
-          </div>
-        </section>
-
-
-       <!-- make product shine with cbb -->
-       <section style="background: whitesmoke;" class="make_product_shine_with_cdb  about-area py-5">
-        <div class="container">
-            <div class="row align-items-xl-center mb-5">
-                <div class="col-lg-6">
-                    <div class="about-img">
-                        <img src="https://themebeyond.com/html/venam/img/images/about_img.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content">
-                        <h4 class="title">Custom Packaging Solutions With <span>CDBPACKAGING</span></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting indust orem Ipsum has been the industry's standard
-                        dummy texever since the when anunknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <p>Dorem Ipsum is simply dummy consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ullam repellendus consequuntur, assumenda magni quasi reiciendis libero dolorum illum in a distinctio laudantium, non veniam pariatur exercitationem unde laborum, reprehenderit doloremque amet molestiae! Earum qui asperiores laudantium ab voluptates illo eveniet quasi hic officiis dignissimos alias ullam voluptatibus vitae quisquam corporis, fuga magnam vel praesentium atque tenetur. Ab debitis dolor repudiandae quaerat voluptate aliquid expedita minus iusto. Hic eligendi, laboriosam illum unde non sequi iure ea nihil, vero et harum impedit dolores ad! Ut numquam quae earum! Iste sapiente repudiandae tempore aliquam, labore officia aut facere! Deserunt ipsum similique voluptatibus.</p>
-                      
-                    </div>
-                </div>
+            <div class="col-md-3 text-center mb-3">
+                <img class="animate__animated animate__backInDown" width="200"  height="200" src="https://reddotpackaging.com/wp-content/uploads/2023/08/print-completion-200x200.png" alt="">
+                <h3 style="color: #ffffff;text-transform: uppercase;text-align: center;">PRINT COMPLETION</h3>
             </div>
-            <div class="row align-items-xl-center mb-5">
-                <div class="col-lg-6">
-                    <div class="about-content">
-                        <h4 class="title">  <span>Custom-made</span>Samples</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting indust orem Ipsum has been the industry's standard
-                        dummy texever since the when anunknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <p>Dorem Ipsum is simply dummy consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ullam repellendus consequuntur, assumenda magni quasi reiciendis libero dolorum illum in a distinctio laudantium, non veniam pariatur exercitationem unde laborum, reprehenderit doloremque amet molestiae! Earum qui asperiores laudantium ab voluptates illo eveniet quasi hic officiis dignissimos alias ullam voluptatibus vitae quisquam corporis, fuga magnam vel praesentium atque tenetur. Ab debitis dolor repudiandae quaerat voluptate aliquid expedita minus iusto. Hic eligendi, laboriosam illum unde non sequi iure ea nihil, vero et harum impedit dolores ad! Ut numquam quae earum! Iste sapiente repudiandae tempore aliquam, labore officia aut facere! Deserunt ipsum similique voluptatibus.</p>
-                      
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="about-img">
-                      <img  height="500" src="https://cdbpackaging.com/assets/img/site/20190409_082910-scaled.jpg" alt="">
-                  </div>
-              </div>
+            <div class="col-md-3 text-center mb-3">
+                <img class="animate__animated animate__backInDown" width="200"  height="200" src="https://reddotpackaging.com/wp-content/uploads/2023/08/packaging-delivery-200x200.png" alt="">
+                <h3 style="color: #ffffff;text-transform: uppercase;text-align: center;">YOU RECEIVE YOUR PRODUCT</h3>
             </div>
         </div>
-      </section>
+        <button class="call_btn_dark rounded-pill">call now</button>
+         </section>
 
-      
-        <!-- Our certificate  -->
+         <!-- printing section  -->
+         <section class="printing_section py-5">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img height="100" width="100" src="https://reddotpackaging.com/wp-content/uploads/2023/08/Icon-bag-reddot-2-200x200.png" alt="">
+                        <h1 class="banner_content mb-5"><span>• Unprinted</span> Stand-Up Pouches & More <span>•</span></h1>
 
-        <section class="our_partner_section">
-          <h1 class="section_title"> THE PACKAGING
-            <span>REALIZATION PROCESS</span></h1>
-             <div class="row container-fluid mx-auto my-5 py-5">
-              <div class="col-md-3">
-                <div class="packagint_process_card">
-                  <i class="fa-solid fa-newspaper"></i>
-                  <h1>Approve Quote</h1>
+                        <p class="cm_desc">Are your bags going into a printed box, or is this an institutional or industrial application? If so, we can also supply custom unprinted pouches, bulk bags and rollstock.</p>
+
+                        <p class="cm_desc">Once we’ve taken you through the discovery process and have defined exactly what your business needs, we are able to offer speedy and efficient lead times on the production of unprinted items.</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img height="100" width="100" src="https://reddotpackaging.com/wp-content/uploads/2023/08/Icon-bag-reddot-2-200x200.png" alt="">
+                        <h1 class="banner_content mb-5"><span>•</span> Customized <span>Printed</span> Stand-Up Pouches & More <span>•</span></h1>
+
+                        <p class="cm_desc">This is where the fun begins! Let your imagination run free and add any design or artwork to your custom pouches for a stunning and totally unique product that is sure to stand out on the shelf.</p>
+
+                        <p class="cm_desc">Whether it’s your logo, photography, or custom illustrations, we can help to bring your vision to life, quickly and accurately. Our innovative print technologies will make your dream a reality.</p>
+
+                        <button class="call_btn rounded-pill">print options</button>
+                    </div>
+                </div>
+              </div> 
+         </section>
+
+         <!-- packaging conversion section-->
+         <section class="packaging_converstion_section py-5">
+            <h4 class="cm_primary_title mb-5 text-center">PACKAGING CONVERSION CALCULATORS</h4>
+            <p style="font-size: 16px;" class="text-center"><strong>Save this handy calculator tool as a favorite page on your computer!</strong></p>
+            <p style="font-size: 16px;" class="text-center"><strong>These conversion calculators will come in handy when you need to convert Micron, Gauge, Mil, and more.</strong></p>
+
+            <button class="call_btn rounded-pill">Packaging calculators</button>
+         </section>
+
+         <!-- offer section  -->
+         <section class="custom_order_section py-5">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="w-100" src="https://reddotpackaging.com/wp-content/uploads/2023/08/red-dot-custom-bags-1366x2048.png" alt="">
+                    </div>
+                    <form class="col-md-6 d-flex custom_order_form justify-content-center flex-column">
+                        <h4 class="order_title"><span>$50 OFF</span> Your Order of Custom Bags</h4>
+                        <p class="order_desc">Join our email list to receive a <span>$50 discount</span> on your next customized bag order.</p>
+                        <div class="d-flex gap-2 py-3">
+                            <input  type="text" placeholder="Name">
+                            <input  type="email" placeholder="Email">
+                        </div>
+                        <p class="order_desc">*Savings apply to custom bags only.</p>
+                        <button class="rounded-pill">submit</button>
+                    </form>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="packagint_process_card">
-                  <i class="fa-solid fa-file-signature"></i>
-                  <h1>APPROVE ARTWORK</h1>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="packagint_process_card">
-                  <i class="fa-solid fa-print"></i>
-                  <h1>PRINT COMPLETION</h1>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="packagint_process_card">
-                  <i class="fa-solid fa-truck"></i>
-                  <h1>YOU RECEIVE YOUR PRODUCT</h1>
-                </div>
-              </div>
+         </section>
 
-             </div>
-        </section>
-        <section class="our_partner_section">
-          <h1 class="section_title"> Certi<span>ficate</span></h1>
-
-          <div class="container mx-auto row my-5 justify-content-center py-5">
-            <div class="col-md-3 mb-3">
-              <img class="img-fluid"  src="https://cdbpackaging.com/assets/img/site/aib-better.png" alt="">
+         <!-- earth friendly product section  -->
+         <section class="earth_friendly_product_section pt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="cm_earth_title">Sustainable and <span>Earth-Friendly Product Packaging</span></h1>
+                        <p class="cm_desc">Our experts are happy to collaborate with you to better understand your sustainability goals and develop personalized solutions that align with your overall aesthetic vision.</p>
+                        <p class="cm_desc">We are happy to offer In-Store Recycle, Post-Consumer-Recycled (PCR) and Compostable solutions.</p>
+                        <p class="cm_desc">Contact your Red Dot Specialist to learn more about these earth friendly alternatives.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="w-100" src="https://reddotpackaging.com/wp-content/uploads/2023/08/sustainable-earth-friendly-reddot-800x563.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3">
-              <img class="img-fluid"  src="https://cdbpackaging.com/assets/img/site/sqf-institute-2a2a2a-e1574207840747.jpg" alt="">
+         </section>
+         <!-- wave video section  -->
+         <section class="wave_bg_with_video_section d-flex align-items-center justify-content-center mt-5 py-5">
+            <div class="mt-5 pt-5">
+                <iframe style="width: 560px;max-width: 100%;" height="315" src="https://www.youtube.com/embed/jysUIyZxPi8?si=glYj2Zg3F1x5BmXl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-          </div>
-        </section>
-    </main>
-    <!-- main end   -->
+         </section>
 
+         <!-- always target section -->
+         <section class="py-5 always_target_section">
+            <div class="container">
 
-    <!-- footer start -->
-    <footer class=" mb-md-0 pb-5 pb-md-0">
-
-      <section class="footer_category_section container">
-
-          <!-- footer category card start -->
-          <div>
-              <div class="footer_category_card pe-3">
-                  <h2 class="footer_category_title">POPULAR
-                      CATEGORIES</h2>
-                  <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corporis repudiandae maxime veritatis, incidunt in libero nostrum laboriosam inventore enim.</a>
-                
+                <h1>ALWAYS ON TARGET. DISCOVER YOUR PERFECT PACKAGING SOLUTION TODAY!</h1>
+                <button class="call_btn_dark rounded-pill">call now</button>
+            </div>
+         </section>
+         <!-- customer success section -->
+         <section class="py-5 customer_success_section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 px-5">
+                    <h1 class="banner_content">A Dedicated Customer <span>Success Team</span></h1>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li class="cm_li"><p class="cm_desc">Your personal packaging specialist will ensure your journey is as simple and stress-free as possible, guiding you through the process every step of the way.</p></li>
+                        <li class="cm_li"><p class="cm_desc">Do you have more specific requirements?</p></li>
+                    </ul>
+                    <p class="cm_desc">We would love to host you at our office to discuss your unique needs in more detail. Your personal packaging specialist will talk through all available options with you to ensure you individual needs are met.</p>
+                </div>
               </div>
-          </div>
-          <!-- footer category card end -->
-          <!-- footer category card start -->
-          <div class="d-flex  justify-content-lg-center">
-              <div class="footer_category_card">
-                  <h2 class="footer_category_title">PRODUCTS</h2>
-                  <a href>Prices Drop</a>
-                  <a href>New Products</a>
-                  <a href>Best Sales</a>
-                  <a href>Contact Us</a>
-                  <a href>Sitemap</a>
+            </div>
+         </section>
+         <!-- video section -->
+         <section class="py-5 ">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 px-5">
+                    <iframe style="width: 100%;" height="315" src="https://www.youtube.com/embed/jysUIyZxPi8?si=glYj2Zg3F1x5BmXl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe style="width: 100%;" height="315" src="https://www.youtube.com/embed/jysUIyZxPi8?si=glYj2Zg3F1x5BmXl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
               </div>
-          </div>
-          <!-- footer category card end -->
-          <!-- footer category card start -->
-          <div>
-              <div class="footer_category_card">
-                  <h2 class="footer_category_title">OUR COMPANY</h2>
-                  <a href>Delivery</a>
-                  <a href="privecypolicy.html">Privecy Policy</a>
-                  <a href>Terms And Conditions</a>
-                  <a href>About Us</a>
-                  <a href>Secure Payment</a>
-              </div>
-          </div>
-          <!-- footer category card end -->
-          <!-- footer category card start -->
-          <div>
-              <div class="footer_category_card">
-                  <h2 class="footer_category_title">CONTACT</h2>
-                  <a href class="mb-2"><i
-                          class="fa-solid fa-location-dot me-1 fs-5"></i>
-                          Physical Address: 14090 Laurelwood Pl. Chino, CA 91710</a>
-                  <a href class="mb-2"><i
-                          class="fa-solid fa-location-dot me-1 fs-5"></i>
-                          Mailing Address: 2058 N. Mills Ave. #246 Claremont, CA 91711</a>
-                  <a href class="mb-2"><i
-                          class="fa-solid fa-phone me-1 fs-5"></i> (909) 325-2345</a>
-                          <div class="footer_social_icon mt-0">
+            </div>
+         </section>
+
+
+         <section class="py-5 further_question_sectio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                            <h1>FURTHER QUESTIONS?</h1>
+                        <p style="word-break: break-all;">»Office Phone: 909-476-3545</p>
+                        <p style="word-break: break-all;">»Email: Customerservice@RedDotPackaging.com</p>
+                        <button class="rounded-pill mt-5">contact us</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="w-100" src="https://reddotpackaging.com/wp-content/uploads/2023/07/Features-footer-675x675.png" alt="">
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- footer start -->
+        <footer class=" mb-md-0 pb-5 pb-md-0">
+
+            <section class="footer_category_section container">
+
+                <!-- footer category card start -->
+                <div>
+                    <div class="footer_category_card pe-3">
+                        <h2 class="footer_category_title">POPULAR
+                            CATEGORIES</h2>
+                        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corporis repudiandae maxime
+                            veritatis, incidunt in libero nostrum laboriosam inventore enim.</a>
+
+                    </div>
+                </div>
+                <!-- footer category card end -->
+                <!-- footer category card start -->
+                <div class="d-flex  justify-content-lg-center">
+                    <div class="footer_category_card">
+                        <h2 class="footer_category_title">PRODUCTS</h2>
+                        <a href>Prices Drop</a>
+                        <a href>New Products</a>
+                        <a href>Best Sales</a>
+                        <a href>Contact Us</a>
+                        <a href>Sitemap</a>
+                    </div>
+                </div>
+                <!-- footer category card end -->
+                <!-- footer category card start -->
+                <div>
+                    <div class="footer_category_card">
+                        <h2 class="footer_category_title">OUR COMPANY</h2>
+                        <a href>Delivery</a>
+                        <a href="privecypolicy.html">Privecy Policy</a>
+                        <a href>Terms And Conditions</a>
+                        <a href>About Us</a>
+                        <a href>Secure Payment</a>
+                    </div>
+                </div>
+                <!-- footer category card end -->
+                <!-- footer category card start -->
+                <div>
+                    <div class="footer_category_card">
+                        <h2 class="footer_category_title">CONTACT</h2>
+                        <a href class="mb-2"><i class="fa-solid fa-location-dot me-1 fs-5"></i>
+                            Physical Address: 14090 Laurelwood Pl. Chino, CA 91710</a>
+                        <a href class="mb-2"><i class="fa-solid fa-location-dot me-1 fs-5"></i>
+                            Mailing Address: 2058 N. Mills Ave. #246 Claremont, CA 91711</a>
+                        <a href class="mb-2"><i class="fa-solid fa-phone me-1 fs-5"></i> (909) 325-2345</a>
+                        <div class="footer_social_icon mt-0">
                             <i class="fa-brands fa-facebook"></i>
                             <i class="fa-brands fa-youtube"></i>
                             <i class="fa-brands fa-twitter"></i>
                             <i class="fa-brands fa-linkedin"></i>
-                     
-                          </div>
-              </div>
-           
-          </div>
-          <!-- footer category card end -->
 
-      </section>
+                        </div>
+                    </div>
 
-  </footer>
-    <!-- footer end -->
-    
+                </div>
+                <!-- footer category card end -->
 
-    <!-- bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- slick slider js -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/slider.js"></script>
-    <!-- slick slider js end -->
-    <script>
+            </section>
+
+        </footer>
+        <!-- footer end -->
+
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <!-- slick slider js -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/slider.js"></script>
+        <!-- slick slider js end -->
+        <!-- <script>
       const navbar = document.querySelector("#cm_navbar");
       window.onscroll = () => {
         if (window.scrollY > 50) {
@@ -501,6 +527,15 @@
           navbar.classList.remove("cm_navbar-active");
         }
       };
+    </script> -->
+    <script>
+        const el = document.querySelector("#module");
+
+el.addEventListener("mousemove", (e) => {
+  el.style.backgroundPositionX = -e.offsetX + "px";
+  el.style.backgroundPositionY = -e.offsetY + "px";
+});
     </script>
-  </body>
+</body>
+
 </html>
