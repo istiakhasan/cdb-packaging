@@ -454,9 +454,14 @@ footer .footer_box a {
 .footer_social_icon {
   margin-top: 30px;
 }
-
+.width_responsive{
+  width: 70%;
+}
 /* footer section end  */
 @media only screen and (max-width: 768px) {
+  .width_responsive{
+    width: 100%;
+  }
   .banner_content,
   .cm_title,
   .cm_earth_title,
